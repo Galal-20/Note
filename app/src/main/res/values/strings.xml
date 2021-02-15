@@ -5,4 +5,6 @@
     <string name="title">Title</string>
     <string name="subtitle">Subtitle</string>
     <string name="typing">Typing</string>
+    <string name="miscellaneous">miscellaneous</string>
+    <string name="pick_color">Pick color</string>
 </resources>

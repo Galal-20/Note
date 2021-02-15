@@ -1,4 +1,4 @@
-package com.example.note;
+package com.example.note.helper;
 
 import com.example.note.entities.Note;
 

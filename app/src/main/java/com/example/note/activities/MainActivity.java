@@ -9,11 +9,10 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.example.note.Constants;
+import com.example.note.helper.Constants;
 import com.example.note.R;
 import com.example.note.adapters.NotesAdapter;
 import com.example.note.database.NotesDatabase;
