@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/layoutMiscellaneous"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/background_miscellaneous"
     android:orientation="vertical"
     app:behavior_peekHeight="@dimen/_40sdp"
     app:layout_behavior="@string/bottom_sheet_behavior"
+    android:id="@+id/layoutMiscellaneous"
     tools:ignore="UselessParent">
 
     <TextView
@@ -22,11 +22,12 @@
         android:textColor="@color/colorWhite"
         android:textSize="@dimen/_13ssp" />
 
+
     <LinearLayout
         android:id="@+id/layoutNOteColor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
         android:layout_margin="@dimen/_10sdp"
         android:orientation="horizontal">
 
@@ -35,7 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1">
 
-            <view
+            <View
                 android:id="@+id/viewColor1"
                 android:layout_width="@dimen/_35sdp"
                 android:layout_height="@dimen/_35sdp"
@@ -49,7 +50,6 @@
                 android:padding="@dimen/_10sdp"
                 android:src="@drawable/ic_done"
                 app:tint="@color/colorWhite" />
-
         </FrameLayout>
 
         <FrameLayout
@@ -57,7 +57,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1">
 
-            <view
+            <View
                 android:id="@+id/viewColor2"
                 android:layout_width="@dimen/_35sdp"
                 android:layout_height="@dimen/_35sdp"
@@ -78,7 +78,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1">
 
-            <view
+            <View
                 android:id="@+id/viewColor3"
                 android:layout_width="@dimen/_35sdp"
                 android:layout_height="@dimen/_35sdp"
@@ -99,7 +99,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1">
 
-            <view
+            <View
                 android:id="@+id/viewColor4"
                 android:layout_width="@dimen/_35sdp"
                 android:layout_height="@dimen/_35sdp"
@@ -120,7 +120,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1">
 
-            <view
+            <View
                 android:id="@+id/viewColor5"
                 android:layout_width="@dimen/_35sdp"
                 android:layout_height="@dimen/_35sdp"
